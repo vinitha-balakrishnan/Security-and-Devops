@@ -1,22 +1,275 @@
-2021-05-22 21:40:44.370  INFO 7252 --- [main] c.e.d.SareetaApplication                 : Starting SareetaApplication on DESKTOP-BKO56J0 with PID 7252 (C:\Users\LattePanda\Desktop\Security-and-Devops\security-devops-master\starter_code\target\classes started by LattePanda in C:\Users\LattePanda\Desktop\Security-and-Devops)
-2021-05-22 21:40:44.403  INFO 7252 --- [main] c.e.d.SareetaApplication                 : No active profile set, falling back to default profiles: default
-2021-05-22 21:40:46.628  INFO 7252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-05-22 21:40:46.805  INFO 7252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 4 JPA repository interfaces.
-2021-05-22 21:40:49.396  INFO 7252 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
-2021-05-22 21:40:49.422  INFO 7252 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
-2021-05-22 21:40:49.424  INFO 7252 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
-2021-05-22 21:40:49.745  INFO 7252 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
-2021-05-22 21:40:49.746  INFO 7252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5192 ms
-2021-05-22 21:40:50.144  INFO 7252 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-05-22 21:40:50.299  INFO 7252 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.17.Final
-2021-05-22 21:40:50.903  INFO 7252 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-05-22 21:40:51.234  INFO 7252 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
-2021-05-22 21:40:51.718  INFO 7252 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
-2021-05-22 21:40:51.759  INFO 7252 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2021-05-22 21:40:54.089  INFO 7252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-05-22 21:40:54.105  INFO 7252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-05-22 21:40:54.898  WARN 7252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-22 21:40:55.893  INFO 7252 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6055e899, org.springframework.security.web.context.SecurityContextPersistenceFilter@167bb934, org.springframework.security.web.header.HeaderWriterFilter@36d5c2ce, org.springframework.web.filter.CorsFilter@350be5ec, org.springframework.security.web.authentication.logout.LogoutFilter@58945295, com.example.demo.security.JWTAuthenticationFilter@478cebdb, com.example.demo.security.JWTAuthenticationVerficationFilter@5464aeec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b3ee43e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@460aa24e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b3a95d9, org.springframework.security.web.session.SessionManagementFilter@54e680fe, org.springframework.security.web.access.ExceptionTranslationFilter@6edb2c7b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ac77269]
-2021-05-22 21:40:56.033  INFO 7252 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-22 21:40:56.518  INFO 7252 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
-2021-05-22 21:40:56.549  INFO 7252 --- [main] c.e.d.SareetaApplication                 : Started SareetaApplication in 13.488 seconds (JVM running for 16.828)
+2021-05-10 16:43:25.549  INFO 1324 --- [main] c.e.d.SareetaApplication                 : Starting SareetaApplication on DESKTOP-BKO56J0 with PID 1324 (C:\Users\LattePanda\Downloads\security-devops-master\security-devops-master\starter_code\target\classes started by LattePanda in C:\Users\LattePanda\Downloads\security-devops-master\security-devops-master\starter_code)
+2021-05-10 16:43:25.597  INFO 1324 --- [main] c.e.d.SareetaApplication                 : No active profile set, falling back to default profiles: default
+2021-05-10 16:43:28.808  INFO 1324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-10 16:43:28.958  INFO 1324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130ms. Found 4 JPA repository interfaces.
+2021-05-10 16:43:31.694  INFO 1324 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-05-10 16:43:31.729  INFO 1324 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-05-10 16:43:31.730  INFO 1324 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-05-10 16:43:32.174  INFO 1324 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-05-10 16:43:32.174  INFO 1324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6405 ms
+2021-05-10 16:43:32.822  INFO 1324 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-10 16:43:33.013  INFO 1324 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-05-10 16:43:33.472  INFO 1324 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-10 16:43:33.728  INFO 1324 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-05-10 16:43:34.272  INFO 1324 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-05-10 16:43:34.320  INFO 1324 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-10 16:43:37.237  INFO 1324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-10 16:43:37.252  INFO 1324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-10 16:43:38.807  WARN 1324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 16:43:41.173  INFO 1324 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d0333c8, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c37ac3c, org.springframework.security.web.header.HeaderWriterFilter@25ee3caa, org.springframework.web.filter.CorsFilter@185b7cc6, org.springframework.security.web.authentication.logout.LogoutFilter@17f8cad6, com.example.demo.security.JWTAuthenticationFilter@2093bb6c, com.example.demo.security.JWTAuthenticationVerficationFilter@528a16fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ae08750, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6afced93, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3673e211, org.springframework.security.web.session.SessionManagementFilter@62159fd, org.springframework.security.web.access.ExceptionTranslationFilter@6a7ea7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c70c771]
+2021-05-10 16:43:41.329  INFO 1324 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-10 16:43:42.004  INFO 1324 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-10 16:43:42.082  INFO 1324 --- [main] c.e.d.SareetaApplication                 : Started SareetaApplication in 18.443 seconds (JVM running for 21.419)
+2021-05-10 16:45:43.002  INFO 1324 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-10 16:45:43.003  INFO 1324 --- [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-05-10 16:45:43.053  INFO 1324 --- [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 50 ms
+2021-05-10 16:45:43.955  INFO 1324 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Create User Success:user1
+2021-05-10 16:45:51.709  INFO 1324 --- [http-nio-8080-exec-3] c.e.d.c.UserController                   : Create User Success:user2
+2021-05-10 16:45:59.008  INFO 1324 --- [http-nio-8080-exec-4] c.e.d.c.UserController                   : Create User Success:user3
+2021-05-10 16:46:04.218  INFO 1324 --- [http-nio-8080-exec-5] c.e.d.c.UserController                   : Create User Success:user4
+2021-05-10 16:46:10.305  INFO 1324 --- [http-nio-8080-exec-6] c.e.d.c.UserController                   : Create User Success:user5
+2021-05-10 16:46:33.260 ERROR 1324 --- [http-nio-8080-exec-7] c.e.d.c.UserController                   : Create User Failure:user6
+2021-05-10 16:46:39.656 ERROR 1324 --- [http-nio-8080-exec-9] c.e.d.c.UserController                   : Create User Failure:user7
+2021-05-10 16:46:44.897 ERROR 1324 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Create User Failure:user8
+2021-05-10 16:46:50.956 ERROR 1324 --- [http-nio-8080-exec-3] c.e.d.c.UserController                   : Create User Failure:user9
+2021-05-10 16:46:57.767 ERROR 1324 --- [http-nio-8080-exec-4] c.e.d.c.UserController                   : Create User Failure:user10
+2021-05-10 16:47:06.912  INFO 1324 --- [http-nio-8080-exec-6] c.e.d.s.JWTAuthenticationFilter          : Attempting authentication for user user1
+2021-05-10 16:47:07.841  INFO 1324 --- [http-nio-8080-exec-6] c.e.d.s.JWTAuthenticationFilter          : login success
+2021-05-10 16:47:51.435  INFO 1324 --- [http-nio-8080-exec-8] c.e.d.c.CartController                   : Add To Cart Success:user1
+2021-05-10 16:48:00.931  INFO 1324 --- [http-nio-8080-exec-9] c.e.d.c.CartController                   : Add To Cart Success:user2
+2021-05-10 16:48:07.583  INFO 1324 --- [http-nio-8080-exec-10] c.e.d.c.CartController                   : Add To Cart Success:user3
+2021-05-10 16:48:25.705  INFO 1324 --- [http-nio-8080-exec-1] c.e.d.c.OrderController                  : Submit Order Success:user1
+2021-05-10 16:48:31.771  INFO 1324 --- [http-nio-8080-exec-2] c.e.d.c.OrderController                  : Submit Order Success:user2
+2021-05-10 16:48:37.340  INFO 1324 --- [http-nio-8080-exec-3] c.e.d.c.OrderController                  : Submit Order Success:user3
+2021-05-10 16:48:43.353 ERROR 1324 --- [http-nio-8080-exec-5] c.e.d.c.OrderController                  : Submit Order Fail :user11
+2021-05-10 16:48:49.965 ERROR 1324 --- [http-nio-8080-exec-4] c.e.d.c.OrderController                  : Submit Order Fail :user12
+2021-05-10 16:48:54.983 ERROR 1324 --- [http-nio-8080-exec-7] c.e.d.c.OrderController                  : Submit Order Fail :user13
+2021-05-10 16:50:55.341 ERROR 1324 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA512
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:50) ~[java-jwt-3.10.2.jar:3.10.2]
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:277) ~[java-jwt-3.10.2.jar:3.10.2]
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:261) ~[java-jwt-3.10.2.jar:3.10.2]
+	at com.example.demo.security.JWTAuthenticationVerficationFilter.getAuthentication(JWTAuthenticationVerficationFilter.java:48) ~[classes/:?]
+	at com.example.demo.security.JWTAuthenticationVerficationFilter.doFilterInternal(JWTAuthenticationVerficationFilter.java:37) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+
+2021-05-10 18:55:07.870  WARN 1324 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m3s774ms786µs200ns).
+2021-05-10 20:53:35.334  INFO 18724 --- [main] c.e.d.SareetaApplication                 : Starting SareetaApplication on DESKTOP-BKO56J0 with PID 18724 (C:\Users\LattePanda\Downloads\security-devops-master\security-devops-master\starter_code\target\classes started by LattePanda in C:\Users\LattePanda\Downloads\security-devops-master\security-devops-master\starter_code)
+2021-05-10 20:53:35.369  INFO 18724 --- [main] c.e.d.SareetaApplication                 : No active profile set, falling back to default profiles: default
+2021-05-10 20:53:37.957  INFO 18724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-10 20:53:38.129  INFO 18724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149ms. Found 4 JPA repository interfaces.
+2021-05-10 20:53:40.973  INFO 18724 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-05-10 20:53:41.010  INFO 18724 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-05-10 20:53:41.011  INFO 18724 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-05-10 20:53:41.357  INFO 18724 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-05-10 20:53:41.357  INFO 18724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5851 ms
+2021-05-10 20:53:42.013  INFO 18724 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-10 20:53:42.185  INFO 18724 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-05-10 20:53:42.662  INFO 18724 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-10 20:53:43.037  INFO 18724 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-05-10 20:53:43.926  INFO 18724 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-05-10 20:53:43.988  INFO 18724 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-10 20:53:46.464  INFO 18724 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-10 20:53:46.480  INFO 18724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-10 20:53:47.732  WARN 18724 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 20:53:50.140  INFO 18724 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22617270, org.springframework.security.web.context.SecurityContextPersistenceFilter@9dbb1d9, org.springframework.security.web.header.HeaderWriterFilter@6d41200c, org.springframework.web.filter.CorsFilter@630febd7, org.springframework.security.web.authentication.logout.LogoutFilter@4511146f, com.example.demo.security.JWTAuthenticationFilter@45c2c396, com.example.demo.security.JWTAuthenticationVerficationFilter@408d12fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58e7f930, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ff23bd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69d61a6f, org.springframework.security.web.session.SessionManagementFilter@593354fa, org.springframework.security.web.access.ExceptionTranslationFilter@261f5a45, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@642d34f1]
+2021-05-10 20:53:50.328  INFO 18724 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-10 20:53:50.973  INFO 18724 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-10 20:53:51.018  INFO 18724 --- [main] c.e.d.SareetaApplication                 : Started SareetaApplication in 17.369 seconds (JVM running for 20.167)
+2021-05-10 20:56:19.177  INFO 18724 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-10 20:56:19.179  INFO 18724 --- [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-05-10 20:56:19.197  INFO 18724 --- [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 18 ms
+2021-05-10 20:56:20.025  INFO 18724 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Create User Success:user1
+2021-05-10 20:56:38.895  INFO 18724 --- [http-nio-8080-exec-3] c.e.d.s.JWTAuthenticationFilter          : Attempting authentication for user user1
+2021-05-10 20:59:52.639  INFO 18724 --- [http-nio-8080-exec-5] c.e.d.s.JWTAuthenticationFilter          : Attempting authentication for user user1
+2021-05-10 20:59:52.924  INFO 18724 --- [http-nio-8080-exec-5] c.e.d.s.JWTAuthenticationFilter          : login success
+2021-05-10 23:05:51.295  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m37s541ms167µs400ns).
+2021-05-12 09:48:35.189  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d9h41m13s854ms660µs100ns).
+2021-05-12 15:58:11.829  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h34m27s679ms305µs300ns).
+2021-05-13 12:30:42.149  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19h16m58s822ms788µs300ns).
+2021-05-13 22:27:00.714  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h21m18s17ms781µs200ns).
+2021-05-19 15:33:28.739  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5d16h28m27s892ms532µs500ns).
+2021-05-19 18:07:40.716  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59m10s329ms455µs700ns).
+2021-05-20 11:12:36.793  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h2m20s818ms175µs700ns).
+2021-05-20 11:57:11.098  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m4s91ms647µs500ns).
+2021-05-21 15:20:47.865  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d2h48m36s512ms132µs800ns).
+2021-05-22 20:57:38.192  WARN 18724 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d5h1m50s82ms714µs400ns).
+2021-05-22 21:59:21.964  INFO 1444 --- [main] c.e.d.SareetaApplication                 : Starting SareetaApplication on DESKTOP-BKO56J0 with PID 1444 (C:\Users\LattePanda\Desktop\Security-and-Devops\security-devops-master\starter_code\target\classes started by LattePanda in C:\Users\LattePanda\Desktop\Security-and-Devops)
+2021-05-22 21:59:21.980  INFO 1444 --- [main] c.e.d.SareetaApplication                 : No active profile set, falling back to default profiles: default
+2021-05-22 21:59:23.225  INFO 1444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-22 21:59:23.241  INFO 1444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2021-05-22 21:59:24.760  INFO 1444 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-05-22 21:59:24.776  INFO 1444 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-05-22 21:59:24.776  INFO 1444 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-05-22 21:59:25.017  INFO 1444 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-05-22 21:59:25.017  INFO 1444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2881 ms
+2021-05-22 21:59:25.305  INFO 1444 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-22 21:59:25.403  INFO 1444 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-05-22 21:59:25.639  INFO 1444 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-22 21:59:25.779  INFO 1444 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-05-22 21:59:26.046  INFO 1444 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-05-22 21:59:26.077  INFO 1444 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-22 21:59:26.596  INFO 1444 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-22 21:59:26.612  INFO 1444 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-22 21:59:26.656  WARN 1444 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of URL [file:/C:/Users/LattePanda/Desktop/Security-and-Devops/security-devops-master/starter_code/target/classes/data.sql]: insert into item (name, price, description) values ('Round Widget', 2.99, 'A widget that is round'); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found; SQL statement:
+insert into item (name, price, description) values ('Round Widget', 2.99, 'A widget that is round') [42102-200]
+2021-05-22 21:59:26.656  INFO 1444 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-05-22 21:59:26.670  INFO 1444 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-05-22 21:59:26.670  INFO 1444 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2021-05-22 21:59:26.701  INFO 1444 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-22 21:59:26.701 ERROR 1444 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of URL [file:/C:/Users/LattePanda/Desktop/Security-and-Devops/security-devops-master/starter_code/target/classes/data.sql]: insert into item (name, price, description) values ('Round Widget', 2.99, 'A widget that is round'); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found; SQL statement:
+insert into item (name, price, description) values ('Round Widget', 2.99, 'A widget that is round') [42102-200]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.example.demo.SareetaApplication.main(SareetaApplication.java:19) [classes/:?]
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of URL [file:/C:/Users/LattePanda/Desktop/Security-and-Devops/security-devops-master/starter_code/target/classes/data.sql]: insert into item (name, price, description) values ('Round Widget', 2.99, 'A widget that is round'); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found; SQL statement:
+insert into item (name, price, description) values ('Round Widget', 2.99, 'A widget that is round') [42102-200]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:622) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:203) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.initSchema(DataSourceInitializer.java:120) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:91) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:38) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:99) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:90) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 16 more
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found; SQL statement:
+insert into item (name, price, description) values ('Round Widget', 2.99, 'A widget that is round') [42102-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Parser.readTableOrView(Parser.java:7628) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Parser.readTableOrView(Parser.java:7599) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Parser.parseInsert(Parser.java:1747) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Parser.parsePrepared(Parser.java:954) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Parser.parse(Parser.java:843) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Parser.parse(Parser.java:815) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Parser.prepareCommand(Parser.java:738) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.prepareLocal(Session.java:657) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.prepareCommand(Session.java:595) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.4.5.jar:?]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:601) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:203) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.initSchema(DataSourceInitializer.java:120) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:91) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:38) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:99) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:90) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 16 more
+
+2021-05-22 22:00:14.230  INFO 16588 --- [main] c.e.d.SareetaApplication                 : Starting SareetaApplication on DESKTOP-BKO56J0 with PID 16588 (C:\Users\LattePanda\Desktop\Security-and-Devops\security-devops-master\starter_code\target\classes started by LattePanda in C:\Users\LattePanda\Desktop\Security-and-Devops)
+2021-05-22 22:00:14.246  INFO 16588 --- [main] c.e.d.SareetaApplication                 : No active profile set, falling back to default profiles: default
+2021-05-22 22:00:15.624  INFO 16588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-22 22:00:15.734  INFO 16588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82ms. Found 4 JPA repository interfaces.
+2021-05-22 22:00:17.153  INFO 16588 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-05-22 22:00:17.168  INFO 16588 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-05-22 22:00:17.168  INFO 16588 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-05-22 22:00:17.418  INFO 16588 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-05-22 22:00:17.418  INFO 16588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3063 ms
+2021-05-22 22:00:17.824  INFO 16588 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-22 22:00:17.934  INFO 16588 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-05-22 22:00:18.250  INFO 16588 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-22 22:00:18.500  INFO 16588 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-05-22 22:00:18.874  INFO 16588 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-05-22 22:00:18.921  INFO 16588 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-22 22:00:20.283  INFO 16588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-22 22:00:20.299  INFO 16588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-22 22:00:21.048  WARN 16588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-22 22:00:21.989  INFO 16588 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48788853, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b26fac2, org.springframework.security.web.header.HeaderWriterFilter@2ae08750, org.springframework.web.filter.CorsFilter@4ac77269, org.springframework.security.web.authentication.logout.LogoutFilter@32e5fb4c, com.example.demo.security.JWTAuthenticationFilter@638d624a, com.example.demo.security.JWTAuthenticationVerficationFilter@7eb774c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62dfe152, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36d5c2ce, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72015156, org.springframework.security.web.session.SessionManagementFilter@58679ff, org.springframework.security.web.access.ExceptionTranslationFilter@7c37ac3c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c8531b9]
+2021-05-22 22:00:22.086  INFO 16588 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-22 22:00:22.446  INFO 16588 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-22 22:00:22.503  INFO 16588 --- [main] c.e.d.SareetaApplication                 : Started SareetaApplication in 9.274 seconds (JVM running for 10.871)
