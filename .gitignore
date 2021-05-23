@@ -1,6 +1,6 @@
 .idea/
-auth-course.iml/
-mvnw/
-mvnw.cmd/
-*.txt/
-**target/
+security-devops-master/starter_code/auth-course.iml
+security-devops-master/starter_code/mvnw
+security-devops-master/starter_code/mvnw.cmd
+security-devops-master/starter_code/hs_err_pid19328.log
+security-devops-master/starter_code/target/
