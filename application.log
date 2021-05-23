@@ -1,0 +1,22 @@
+2021-05-22 21:40:44.370  INFO 7252 --- [main] c.e.d.SareetaApplication                 : Starting SareetaApplication on DESKTOP-BKO56J0 with PID 7252 (C:\Users\LattePanda\Desktop\Security-and-Devops\security-devops-master\starter_code\target\classes started by LattePanda in C:\Users\LattePanda\Desktop\Security-and-Devops)
+2021-05-22 21:40:44.403  INFO 7252 --- [main] c.e.d.SareetaApplication                 : No active profile set, falling back to default profiles: default
+2021-05-22 21:40:46.628  INFO 7252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-22 21:40:46.805  INFO 7252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 4 JPA repository interfaces.
+2021-05-22 21:40:49.396  INFO 7252 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-05-22 21:40:49.422  INFO 7252 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-05-22 21:40:49.424  INFO 7252 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-05-22 21:40:49.745  INFO 7252 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-05-22 21:40:49.746  INFO 7252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5192 ms
+2021-05-22 21:40:50.144  INFO 7252 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-22 21:40:50.299  INFO 7252 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.17.Final
+2021-05-22 21:40:50.903  INFO 7252 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-22 21:40:51.234  INFO 7252 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-05-22 21:40:51.718  INFO 7252 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-05-22 21:40:51.759  INFO 7252 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-22 21:40:54.089  INFO 7252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-22 21:40:54.105  INFO 7252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-22 21:40:54.898  WARN 7252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-22 21:40:55.893  INFO 7252 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6055e899, org.springframework.security.web.context.SecurityContextPersistenceFilter@167bb934, org.springframework.security.web.header.HeaderWriterFilter@36d5c2ce, org.springframework.web.filter.CorsFilter@350be5ec, org.springframework.security.web.authentication.logout.LogoutFilter@58945295, com.example.demo.security.JWTAuthenticationFilter@478cebdb, com.example.demo.security.JWTAuthenticationVerficationFilter@5464aeec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b3ee43e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@460aa24e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b3a95d9, org.springframework.security.web.session.SessionManagementFilter@54e680fe, org.springframework.security.web.access.ExceptionTranslationFilter@6edb2c7b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ac77269]
+2021-05-22 21:40:56.033  INFO 7252 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-22 21:40:56.518  INFO 7252 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-22 21:40:56.549  INFO 7252 --- [main] c.e.d.SareetaApplication                 : Started SareetaApplication in 13.488 seconds (JVM running for 16.828)

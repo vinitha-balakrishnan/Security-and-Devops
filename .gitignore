@@ -1,0 +1,6 @@
+.idea/
+auth-course.iml/
+mvnw/
+mvnw.cmd/
+*.txt/
+**target/
